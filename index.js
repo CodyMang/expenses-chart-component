@@ -1,5 +1,5 @@
 async function getData(){
-    return await fetch('https://codymang.github.io/expenses-chart-component/data.json')// This is for github pages, change to /data.json for local
+    return await fetch('https:\/\/codymang.github.io\/expenses-chart-component\/data.json')// This is for github pages, change to /data.json for local
     .then(response => {
         return response.json();
     }).then(data =>{ //convert data into a easier Object
