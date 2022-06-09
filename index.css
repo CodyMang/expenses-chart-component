@@ -1,0 +1,188 @@
+
+html, body {
+    margin:0px;
+    background-color: rgb(247,233,220);
+    font-family: DMSans, sans-serif;
+}
+
+
+.container{
+    background-color: hsl(27, 66%, 92%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-content{
+    width: 340px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+
+.main-content > div {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+.title-card{
+    text-align: center;
+    border-radius: 12px;
+    background-color:hsl(10, 79%, 65%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.balance-container{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+
+.balance-title{
+    font-weight: 200;
+    font-size: 18px;
+    margin:0px;
+}
+
+
+.balance{
+    font-weight: 400;
+    font-size: 26px;
+    margin:0; 
+}
+
+
+.fin-content{
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 12px;
+    height: auto;
+    padding: 20px;
+    color: hsl(25, 47%, 15%);
+    display:flex;
+    flex-direction: column;
+}
+
+
+.spending-title{
+    margin: 0;
+}
+
+
+.container-bar-graph{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+
+[class*="day-"]{
+    width: 11%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+
+[class*="day-"] > [id*="desc-"]{
+    width: 130%;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    padding: 4px 2px;
+    background-color: hsl(25, 47%, 15%);
+    text-align: center;
+    font-size:12px;
+    color: hsl(33, 100%, 98%);
+    visibility: hidden;
+    position:relative;
+}
+
+
+[class*="day-"] > [id*="bar-"]{
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsl(10, 84%, 62%);
+}
+
+
+[class*="day-"] > label{
+    color:grey;
+    font-size:12px;
+    text-align: center;
+}
+
+
+.container-bar-graph > div{
+    margin:0px;
+}
+
+
+.spending-summary{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+
+.spending-container{
+    color:hsl(25, 47%, 15%);
+    margin-top: 18px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+
+.summary-title {
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+
+#sumarry-spent{
+    font-size: 27px;
+    margin:0px;
+    font-weight: 700;
+}
+
+
+.incrase-summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+
+.increase-percent{
+    color:hsl(25, 47%, 15%);
+    font-size: 14px;
+    font-weight:700;
+    margin: 0;
+}
+
+
+.increase-label{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 6px;
+}

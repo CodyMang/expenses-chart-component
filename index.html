@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Expenses chart component</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=DM+Sans">
+</head>
+<body>
+  <div class="container">
+    <div class="main-content">
+
+      <div class="title-card">
+        <div class="balance-container">
+          <h3  class="balance-title">My balance</h2> 
+          <p  class="balance">$921.48</p>
+        </div>
+        <div style=" height:75px; width:75px">
+          <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="150" r="100" fill="hsl(25, 47%, 15%)" />
+            <circle cx="110" cy="150" r="100" fill-opacity="0" stroke-width="4%" stroke="hsl(33, 100%, 98%)"  />
+          </svg>
+        </div>
+      </div>
+
+      <div class="fin-content">
+        <h2 class="spending-title">Spending - Last 7 days</h2>
+        <div class="container-bar-graph">
+          <div class="day-mon">
+              <div id="desc-mon"></div>
+              <div id="bar-mon"></div>
+              <label>mon</label>
+          </div>
+
+          <div class="day-tue">
+            <div id="desc-tue">$20.22</div>
+            <div id="bar-tue"></div>
+            <label>tue</label>
+          </div>
+
+          <div class="day-wed">
+            <div id="desc-wed"></div>
+            <div id="bar-wed"></div>
+            <label>wed</label>
+          </div>
+
+          <div class="day-thu">
+            <div id="desc-thu"></div>
+            <div id="bar-thu"></div>
+            <label>thu</label>
+          </div>
+
+          <div class="day-fri">
+            <div id="desc-fri"></div>
+            <div id="bar-fri"></div>
+            <label>fri</label>
+          </div>
+
+          <div class="day-sat">
+            <div id="desc-sat"></div>
+            <div id="bar-sat"></div>
+            <label>sat</label>
+          </div>
+
+          <div class="day-sun">
+            <div id="desc-sun"></div>
+            <div id="bar-sun"></div>
+            <label>sun</label>
+          </div>
+
+        </div>
+
+        <hr size="1px" width="100%" color="lightgrey" >
+        <div class="spending-summary">
+          <div class="spending-container">
+            <label class="summary-title">Total this month</label>
+            <p id="sumarry-spent">$0.0</p>
+          </div>
+          <div class="incrase-summary">
+            <p class="increase-percent">+2.4%</p>
+            <label class="increase-label">from last month</label>
+          </div>
+      </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        <br>
+        Coded by <a href="#">Cody Mangham</a>.
+    </div>
+
+  </div>
+</body>
+</html>
