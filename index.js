@@ -2,7 +2,7 @@ async function getData(){
     return await fetch('/data.json')
     .then(response => {
         return response.json();
-    }).then(data =>{
+    }).then(data =>{ //convert data into a easier Object
         return data.reduce((prev,curr)=>{
             prev[curr.day] = curr.amount;
             return prev;
