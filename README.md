@@ -9,12 +9,13 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 Users should be able to:
 
 - View the bar chart and hover over the individual bars to see the correct amounts for each day
+
 - View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
 - See dynamically generated bars based on the data provided in the local JSON file
 
 ### Screenshot
-
+![Screenshot of site](/screenshot.png "Screenshot")
 
 ### Links
 
