@@ -1,10 +1,15 @@
 # Frontend Mentor - Expenses chart component
 
+## Links
+
+- [Solution URL](https://www.frontendmentor.io/solutions/expenses-chart-in-htmlcssjavascript-rdxYIrBV6n)
+- [Live Site URL](https://codymang.github.io/expenses-chart-component/)
+
 ## Welcome! 👋
 
 This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## The challenge
+## The Challenge
 
 Users should be able to:
 
@@ -16,11 +21,6 @@ Users should be able to:
 
 ### Screenshot
 ![Screenshot of site](/screenshot.png "Screenshot")
-
-### Links
-
-- [Solution URL](https://www.frontendmentor.io/solutions/expenses-chart-in-htmlcssjavascript-rdxYIrBV6n)
-- [Live Site URL](https://codymang.github.io/expenses-chart-component/)
 
 ### Built with
 - Semantic HTML5 markup
